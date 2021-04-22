@@ -1,0 +1,17 @@
+{
+  "name": "gus-generator",
+  "version": "1.0.0",
+  "description": "Gerador automático de frases semi-maravilhosas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gus-generator": "index.js"
+  },
+  "author": "me@icaro.io",
+  "license": "ISC",
+  "dependencies": {
+    "pensador-api": "^1.0.0"
+  }
+}
