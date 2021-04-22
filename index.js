@@ -7,7 +7,7 @@ if (!term) {
 } else {
   pensador({ term, max: 5 })
     .then(({ phrases }) => {
-      const index = Math.floor(Math.random() * 5)
+      const index = Math.floor(Math.random() * 5);
   
       console.log(`Como diria ${phrases[index].author}: "${phrases[index].text}"`);
     })
